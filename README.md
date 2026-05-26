@@ -1,4 +1,4 @@
-<img src="https://image.noelshack.com/minis/2026/22/2/1779821710-capture-d-cran-2026-05-26-205314.png" border="0" alt="1779821710-capture-d-cran-2026-05-26-205314.png - envoi d'image avec NoelShack" title="1779821710-capture-d-cran-2026-05-26-205314.png"/>
+[prototype_map.png](https://postimg.cc/w762yk1G)
 
 # Tiny Draw Debug
 
