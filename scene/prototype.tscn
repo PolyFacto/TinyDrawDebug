@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cfxwvs0ccoxuy"]
 
+[ext_resource type="Script" uid="uid://d2rx2dngxpgsm" path="res://scene/test.gd" id="1_nhkmp"]
 [ext_resource type="Texture2D" uid="uid://cgnavqmjokk2" path="res://texture/prototype_512x512_white.png" id="1_vh0h4"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1q47j"]
@@ -25,6 +26,7 @@ material = SubResource("StandardMaterial3D_nhkmp")
 size = Vector2(100, 100)
 
 [node name="Prototype" type="Node" unique_id=1936228812]
+script = ExtResource("1_nhkmp")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=680876986]
 environment = SubResource("Environment_nhkmp")
