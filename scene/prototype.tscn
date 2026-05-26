@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://cfxwvs0ccoxuy"]
+
+[ext_resource type="Script" uid="uid://d2rx2dngxpgsm" path="res://scene/test.gd" id="1_nhkmp"]
+[ext_resource type="Texture2D" uid="uid://cgnavqmjokk2" path="res://texture/prototype_512x512_white.png" id="1_vh0h4"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1q47j"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_vh0h4"]
+sky_material = SubResource("ProceduralSkyMaterial_1q47j")
+
+[sub_resource type="Environment" id="Environment_nhkmp"]
+background_mode = 2
+sky = SubResource("Sky_vh0h4")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nhkmp"]
+albedo_color = Color(0.22670749, 0.22670752, 0.22670743, 1)
+albedo_texture = ExtResource("1_vh0h4")
+uv1_triplanar = true
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_wb65u"]
+material = SubResource("StandardMaterial3D_nhkmp")
+size = Vector2(100, 100)
+
+[node name="Prototype" type="Node" unique_id=1936228812]
+script = ExtResource("1_nhkmp")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=680876986]
+environment = SubResource("Environment_nhkmp")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1697221748]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 5, 0)
+shadow_enabled = true
+
+[node name="FloorMesh" type="MeshInstance3D" parent="." unique_id=617301773]
+mesh = SubResource("PlaneMesh_wb65u")

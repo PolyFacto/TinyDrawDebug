@@ -11,8 +11,17 @@ config_version=5
 [application]
 
 config/name="TinyDrawDebug"
+run/main_scene="uid://cfxwvs0ccoxuy"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+TinyDrawDebug="*uid://cf47rjb5cupog"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/tiny_draw_debug/plugin.cfg")
 
 [physics]
 
@@ -21,3 +30,4 @@ config/icon="res://icon.svg"
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+anti_aliasing/quality/msaa_3d=3
