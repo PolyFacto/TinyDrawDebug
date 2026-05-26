@@ -1,3 +1,5 @@
+<img src="https://image.noelshack.com/minis/2026/22/2/1779821710-capture-d-cran-2026-05-26-205314.png" border="0" alt="1779821710-capture-d-cran-2026-05-26-205314.png - envoi d'image avec NoelShack" title="1779821710-capture-d-cran-2026-05-26-205314.png"/>
+
 # Tiny Draw Debug
 
 A tiny and simple GDScript plugin for Godot 4 to quickly draw debug shapes in 3D (lines, cubes, spheres, cylinders, capsules, crosses, and circles).
@@ -22,7 +24,7 @@ TinyDrawDebug.cross(global_position, 1.0, Color.MAGENTA)
 # A circle on the floor
 TinyDrawDebug.circle(global_position, Vector3.UP, 2.5, Color.CYAN)
 ```
-### Draw for x seconds
+### Draw for X seconds
 ```gdscript
 # A cube that stays for 3 seconds
 DebugDraw3D.cube(Vector3.ZERO, Vector3(2, 2, 2), Color.BLUE, 3.0)
