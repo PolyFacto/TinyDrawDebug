@@ -1,4 +1,4 @@
-[![Capture-d-ecran-2026-05-26-205314.png](https://i.postimg.cc/28WKtcrr/Capture-d-ecran-2026-05-26-205314.png)](https://postimg.cc/w762yk1G)
+![thumbnail.png](https://media.githubusercontent.com/media/PolyFacto/TinyDrawDebug/master/thumbnail.png)
 
 # Tiny Draw Debug
 
