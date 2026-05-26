@@ -2,7 +2,7 @@
 
 # Tiny Draw Debug
 
-A tiny and simple GDScript plugin for Godot 4 to quickly draw debug shapes in 3D (lines, cubes, spheres, cylinders, capsules, crosses, and circles).
+A tiny and simple GDScript plugin for Godot 4.6+ to quickly draw debug shapes in 3D (lines, cubes, spheres, cylinders, capsules, crosses, and circles).
 
 ## Installation
 
